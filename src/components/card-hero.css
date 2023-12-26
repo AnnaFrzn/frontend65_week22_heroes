@@ -1,0 +1,43 @@
+* {
+    font-family: 'Lobster';
+}
+
+.card {
+    border: thick double #12465a;
+    width: 28%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    margin: 0.5rem;
+    border-radius: 20px;
+    position: relative;
+}
+
+.card__img {
+    width: 100%;
+    align-self: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.5rem;
+}
+
+.card__button {
+    position: absolute;
+    right: 0;
+    background: url("https://polinka.top/uploads/posts/2023-06/1685811137_polinka-top-p-iskra-kartinka-dlya-detei-krasivo-67.png") 50% 50% no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+
+.card__button:hover {
+    height: 50px;
+    cursor: pointer;
+}
